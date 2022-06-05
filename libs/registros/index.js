@@ -57,8 +57,7 @@ module.exports = class Registro {
     return this.registroDao.getById({ codigo });
   }
 
-  async updateRegistro({ codigo, 
-    category, 
+  async updateRegistro({ category, 
     type, 
     description, 
     date,
