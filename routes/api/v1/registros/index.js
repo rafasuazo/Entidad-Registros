@@ -149,6 +149,5 @@ router.get('/all', async (req, res) => {
       res.status(500).json({ error: 'Error al procesar solicitud.' });
     }
   });
-  
   module.exports = router;
   
